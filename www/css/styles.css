@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: "Open Sans", Arial, sans-serif;
+	color: #4a4a4a;
+}
+h1 {
+	font-size: 48px;
+	font-weight: 800;
+}
+h2 {
+	font-weight: 800;
+	padding-top:32px;
+}
+.flex-container {
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+}
+.navbar-brand #colmar {
+	font-weight: 800;
+}
+.navbar-brand #academy {
+	font-weight: 100;
+}
+.jumbotron {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	background-color: #d8d8d8;
+}
+.jumbotron .inner {
+	max-width: 30%;
+}
+.btn {
+	pading: 8px 0;
+	border-radius: none;
+	width: 60%;
+}
+.btn-secondary {
+	background-color: #4a4a4a;
+}
+.lead-column {
+	padding: 32px 24px;
+}
+.lead-column img {
+	width: 100%;
+}
+.lead-column h2 {
+	padding-bottom: 24px;
+}
+.blog {
+	background-color: #f3f5f5;
+}
+.featured-post .item {
+	border: 1px solid #e0e2e2;
+	width: 100%;
+	padding: 50px 24px;
+	margin: 0 auto;
+	transition: 0.15s ease-out;
+	display: block;
+}
+.featured-post .item:hover {
+	background-color: #d8d8d8;
+	transition: 0.15s ease-in;
+	cursor: pointer;
+}
+.featured-post .item img {
+	width: 160px;
+	float: left;
+	padding-right: 24px;
+}
+.featured-post .item div#post3 {
+	background-image: url(../images/information-guest-lecture.jpg)
+}
+#learning, #accordion {
+	background-color: #eaebec;
+}
+#learning h2 {
+	margin-bottom: 32px;
+	text-align: center;
+}
+.card {
+	margin-bottom: 32px;
+}
+.card-body {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 32px;
+	height: 160px;
+}
+.card-body h5 {
+	font-weight: 700;
+}
+.card-body .card-course {
+	text-transform: uppercase;
+}
+video {
+	width: 100%;
+}
+footer {
+	border-top: 1px solid #d8d8d8; 
+	display: block;
+	height:100px;
+	padding: 16px 24px;
+}
+footer ul li {
+	display: inline;
+	padding: 0 8px;
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.visible-desktop {
+		display:block;
+	}
+	.visible-mobile {
+		display: none;
+	}
+}
+
+@media (max-width: 1100px) {
+	.visible-desktop {
+		display:block;
+	}
+	.visible-mobile {
+		display: none;
+	}
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+	.visible-desktop {
+		display:block;
+	}
+	.visible-mobile {
+		display: none;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 768px) {
+	.visible-desktop {
+		display:block;
+	}
+	.visible-mobile {
+		display: none;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+	.visible-desktop {
+		display: none;
+	}
+	.visible-mobile {
+		display: block;
+	}
+	.jumbotron .inner {
+		max-width: 100%;
+		padding: 0 16px;
+	}
+	.jumbotron h1 {
+		font-size: 36px;
+	}
+	.jumbotron .btn {
+		width: 100%;
+		margin-bottom: 32px;
+	}
+	.featured-post {
+		margin: 16px 0;
+	}
+	.featured-post .item img {
+		width: 100%;
+		float:none;
+		padding-right: 0;
+	}
+	.featured-post .item {
+		padding: 0;
+		border: none;
+	}
+	.featured-post .item .content {
+		padding: 16px;
+	}
+	.featured-post .item h3 {
+		font-weight: 700;
+	}
+	#accordion .card {
+		margin-bottom: 5px;
+	}
+	#accordion {
+		margin-left: 16px;
+		margin-right: 16px;
+		background-color: #eaebec;
+	}
+	#accordion .btn {
+		padding-left: 0;
+		border-radius: 0;
+	}
+	.btn-link {
+		font-size: 22px;
+		font-weight: 800px;
+		color: #4a4a4a;
+		float: left;
+	}
+}
